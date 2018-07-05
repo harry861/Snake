@@ -7,14 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D9E01CE20EB07760098B423 /* food3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9E01CB20EB07750098B423 /* food3.png */; };
+		8D9E01CF20EB07760098B423 /* food2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9E01CC20EB07760098B423 /* food2.png */; };
+		8D9E01D020EB07760098B423 /* food1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9E01CD20EB07760098B423 /* food1.png */; };
+		8D9E01D320EB0C900098B423 /* 死亡bgm.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8D9E01D120EB0C900098B423 /* 死亡bgm.m4a */; };
+		8D9E01D420EB0C900098B423 /* 吃到食物.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8D9E01D220EB0C900098B423 /* 吃到食物.m4a */; };
+		8DAFA9F120E2D3E800B4F216 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAFA9F020E2D3E800B4F216 /* Setting.swift */; };
+		8DAFA9F320E2DA3A00B4F216 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAFA9F220E2DA3A00B4F216 /* SettingViewController.swift */; };
 		8DCE82AA20E20F0300118C18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE82A920E20F0300118C18 /* AppDelegate.swift */; };
 		8DCE82AC20E20F0400118C18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE82AB20E20F0400118C18 /* ViewController.swift */; };
 		8DCE82AF20E20F0400118C18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DCE82AD20E20F0400118C18 /* Main.storyboard */; };
 		8DCE82B120E20F0400118C18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DCE82B020E20F0400118C18 /* Assets.xcassets */; };
 		8DCE82B420E20F0400118C18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DCE82B220E20F0400118C18 /* LaunchScreen.storyboard */; };
+		8DCE82BC20E2114500118C18 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE82BB20E2114500118C18 /* Game.swift */; };
+		8DCE82CE20E273B900118C18 /* 蛇身 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCE82C220E273B700118C18 /* 蛇身 4.png */; };
+		8DCE82D120E273B900118C18 /* 蛇身 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCE82C520E273B800118C18 /* 蛇身 3.png */; };
+		8DCE82D320E273B900118C18 /* 蛇頭 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCE82C720E273B800118C18 /* 蛇頭 3.png */; };
+		8DCE82D420E273B900118C18 /* 蛇頭 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCE82C820E273B800118C18 /* 蛇頭 4.png */; };
+		8DCE82D520E273B900118C18 /* 蛇頭 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCE82C920E273B800118C18 /* 蛇頭 1.png */; };
+		8DCE82D720E273B900118C18 /* 蛇身 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCE82CB20E273B800118C18 /* 蛇身 1.png */; };
+		8DCE82D820E273B900118C18 /* 蛇身 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCE82CC20E273B800118C18 /* 蛇身 2.png */; };
+		8DCE82D920E273B900118C18 /* 蛇頭 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCE82CD20E273B800118C18 /* 蛇頭 2.png */; };
+		8DCE82E220E2761700118C18 /* 蛇尾 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCE82DE20E2761600118C18 /* 蛇尾 1.png */; };
+		8DCE82E320E2761700118C18 /* 蛇尾 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCE82DF20E2761600118C18 /* 蛇尾 4.png */; };
+		8DCE82E420E2761700118C18 /* 蛇尾 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCE82E020E2761600118C18 /* 蛇尾 2.png */; };
+		8DCE82E520E2761700118C18 /* 蛇尾 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DCE82E120E2761700118C18 /* 蛇尾 3.png */; };
+		8DCE82E720E28C7000118C18 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE82E620E28C7000118C18 /* GameViewController.swift */; };
+		8DCE82EA20E293CB00118C18 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE82E920E293CB00118C18 /* MainViewController.swift */; };
+		8DCE82EC20E2A4B600118C18 /* EditTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE82EB20E2A4B600118C18 /* EditTableViewController.swift */; };
+		8DCE82EE20E2A58400118C18 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE82ED20E2A58400118C18 /* User.swift */; };
+		8DCE82F020E2A7A200118C18 /* RankTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE82EF20E2A7A200118C18 /* RankTableViewController.swift */; };
+		8DCE82F620E2AFA600118C18 /* RankTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE82F520E2AFA600118C18 /* RankTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D9E01CB20EB07750098B423 /* food3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food3.png; sourceTree = "<group>"; };
+		8D9E01CC20EB07760098B423 /* food2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food2.png; sourceTree = "<group>"; };
+		8D9E01CD20EB07760098B423 /* food1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food1.png; sourceTree = "<group>"; };
+		8D9E01D120EB0C900098B423 /* 死亡bgm.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "死亡bgm.m4a"; sourceTree = "<group>"; };
+		8D9E01D220EB0C900098B423 /* 吃到食物.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "吃到食物.m4a"; sourceTree = "<group>"; };
+		8DAFA9F020E2D3E800B4F216 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		8DAFA9F220E2DA3A00B4F216 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		8DCE82A620E20F0300118C18 /* Snake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DCE82A920E20F0300118C18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DCE82AB20E20F0400118C18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +55,25 @@
 		8DCE82B020E20F0400118C18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DCE82B320E20F0400118C18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DCE82B520E20F0400118C18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DCE82BB20E2114500118C18 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		8DCE82C220E273B700118C18 /* 蛇身 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蛇身 4.png"; sourceTree = "<group>"; };
+		8DCE82C520E273B800118C18 /* 蛇身 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蛇身 3.png"; sourceTree = "<group>"; };
+		8DCE82C720E273B800118C18 /* 蛇頭 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蛇頭 3.png"; sourceTree = "<group>"; };
+		8DCE82C820E273B800118C18 /* 蛇頭 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蛇頭 4.png"; sourceTree = "<group>"; };
+		8DCE82C920E273B800118C18 /* 蛇頭 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蛇頭 1.png"; sourceTree = "<group>"; };
+		8DCE82CB20E273B800118C18 /* 蛇身 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蛇身 1.png"; sourceTree = "<group>"; };
+		8DCE82CC20E273B800118C18 /* 蛇身 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蛇身 2.png"; sourceTree = "<group>"; };
+		8DCE82CD20E273B800118C18 /* 蛇頭 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蛇頭 2.png"; sourceTree = "<group>"; };
+		8DCE82DE20E2761600118C18 /* 蛇尾 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蛇尾 1.png"; sourceTree = "<group>"; };
+		8DCE82DF20E2761600118C18 /* 蛇尾 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蛇尾 4.png"; sourceTree = "<group>"; };
+		8DCE82E020E2761600118C18 /* 蛇尾 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蛇尾 2.png"; sourceTree = "<group>"; };
+		8DCE82E120E2761700118C18 /* 蛇尾 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蛇尾 3.png"; sourceTree = "<group>"; };
+		8DCE82E620E28C7000118C18 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameViewController.swift; path = /Users/autumncat/Desktop/Snake/Snake/GameViewController.swift; sourceTree = "<absolute>"; };
+		8DCE82E920E293CB00118C18 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = /Users/autumncat/Desktop/Snake/Snake/MainViewController.swift; sourceTree = "<absolute>"; };
+		8DCE82EB20E2A4B600118C18 /* EditTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EditTableViewController.swift; path = /Users/autumncat/Desktop/Snake/Snake/EditTableViewController.swift; sourceTree = "<absolute>"; };
+		8DCE82ED20E2A58400118C18 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = User.swift; path = /Users/autumncat/Desktop/Snake/Snake/User.swift; sourceTree = "<absolute>"; };
+		8DCE82EF20E2A7A200118C18 /* RankTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RankTableViewController.swift; path = /Users/autumncat/Desktop/Snake/Snake/RankTableViewController.swift; sourceTree = "<absolute>"; };
+		8DCE82F520E2AFA600118C18 /* RankTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RankTableViewCell.swift; path = /Users/autumncat/Desktop/Snake/Snake/RankTableViewCell.swift; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +106,34 @@
 		8DCE82A820E20F0300118C18 /* Snake */ = {
 			isa = PBXGroup;
 			children = (
+				8D9E01D220EB0C900098B423 /* 吃到食物.m4a */,
+				8D9E01D120EB0C900098B423 /* 死亡bgm.m4a */,
+				8D9E01CD20EB07760098B423 /* food1.png */,
+				8D9E01CC20EB07760098B423 /* food2.png */,
+				8D9E01CB20EB07750098B423 /* food3.png */,
+				8DCE82DE20E2761600118C18 /* 蛇尾 1.png */,
+				8DCE82E020E2761600118C18 /* 蛇尾 2.png */,
+				8DCE82E120E2761700118C18 /* 蛇尾 3.png */,
+				8DCE82DF20E2761600118C18 /* 蛇尾 4.png */,
+				8DCE82CB20E273B800118C18 /* 蛇身 1.png */,
+				8DCE82CC20E273B800118C18 /* 蛇身 2.png */,
+				8DCE82C520E273B800118C18 /* 蛇身 3.png */,
+				8DCE82C220E273B700118C18 /* 蛇身 4.png */,
+				8DCE82C920E273B800118C18 /* 蛇頭 1.png */,
+				8DCE82CD20E273B800118C18 /* 蛇頭 2.png */,
+				8DCE82C720E273B800118C18 /* 蛇頭 3.png */,
+				8DCE82C820E273B800118C18 /* 蛇頭 4.png */,
+				8DCE82ED20E2A58400118C18 /* User.swift */,
+				8DAFA9F020E2D3E800B4F216 /* Setting.swift */,
+				8DCE82EF20E2A7A200118C18 /* RankTableViewController.swift */,
+				8DCE82F520E2AFA600118C18 /* RankTableViewCell.swift */,
+				8DCE82EB20E2A4B600118C18 /* EditTableViewController.swift */,
+				8DCE82E920E293CB00118C18 /* MainViewController.swift */,
+				8DCE82E620E28C7000118C18 /* GameViewController.swift */,
+				8DCE82BB20E2114500118C18 /* Game.swift */,
 				8DCE82A920E20F0300118C18 /* AppDelegate.swift */,
 				8DCE82AB20E20F0400118C18 /* ViewController.swift */,
+				8DAFA9F220E2DA3A00B4F216 /* SettingViewController.swift */,
 				8DCE82AD20E20F0400118C18 /* Main.storyboard */,
 				8DCE82B020E20F0400118C18 /* Assets.xcassets */,
 				8DCE82B220E20F0400118C18 /* LaunchScreen.storyboard */,
@@ -122,9 +200,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D9E01D020EB07760098B423 /* food1.png in Resources */,
+				8DCE82D720E273B900118C18 /* 蛇身 1.png in Resources */,
+				8DCE82D920E273B900118C18 /* 蛇頭 2.png in Resources */,
+				8DCE82E520E2761700118C18 /* 蛇尾 3.png in Resources */,
+				8DCE82D520E273B900118C18 /* 蛇頭 1.png in Resources */,
+				8DCE82D120E273B900118C18 /* 蛇身 3.png in Resources */,
 				8DCE82B420E20F0400118C18 /* LaunchScreen.storyboard in Resources */,
+				8DCE82D420E273B900118C18 /* 蛇頭 4.png in Resources */,
+				8D9E01CE20EB07760098B423 /* food3.png in Resources */,
 				8DCE82B120E20F0400118C18 /* Assets.xcassets in Resources */,
+				8DCE82D320E273B900118C18 /* 蛇頭 3.png in Resources */,
+				8DCE82D820E273B900118C18 /* 蛇身 2.png in Resources */,
+				8D9E01CF20EB07760098B423 /* food2.png in Resources */,
+				8DCE82E420E2761700118C18 /* 蛇尾 2.png in Resources */,
+				8DCE82E220E2761700118C18 /* 蛇尾 1.png in Resources */,
 				8DCE82AF20E20F0400118C18 /* Main.storyboard in Resources */,
+				8D9E01D320EB0C900098B423 /* 死亡bgm.m4a in Resources */,
+				8DCE82E320E2761700118C18 /* 蛇尾 4.png in Resources */,
+				8DCE82CE20E273B900118C18 /* 蛇身 4.png in Resources */,
+				8D9E01D420EB0C900098B423 /* 吃到食物.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +230,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DAFA9F120E2D3E800B4F216 /* Setting.swift in Sources */,
+				8DAFA9F320E2DA3A00B4F216 /* SettingViewController.swift in Sources */,
+				8DCE82E720E28C7000118C18 /* GameViewController.swift in Sources */,
+				8DCE82F620E2AFA600118C18 /* RankTableViewCell.swift in Sources */,
+				8DCE82EC20E2A4B600118C18 /* EditTableViewController.swift in Sources */,
 				8DCE82AC20E20F0400118C18 /* ViewController.swift in Sources */,
+				8DCE82F020E2A7A200118C18 /* RankTableViewController.swift in Sources */,
+				8DCE82BC20E2114500118C18 /* Game.swift in Sources */,
 				8DCE82AA20E20F0300118C18 /* AppDelegate.swift in Sources */,
+				8DCE82EA20E293CB00118C18 /* MainViewController.swift in Sources */,
+				8DCE82EE20E2A58400118C18 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
